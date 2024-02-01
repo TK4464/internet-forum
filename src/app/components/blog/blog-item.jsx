@@ -23,6 +23,7 @@ const BlogItem = (blog) => {
                         alt="image"
                         width={640}
                         height={360}
+                        unoptimized
                     />
                 </Link>
             </div>
@@ -41,6 +42,7 @@ const BlogItem = (blog) => {
                         alt="avatar"
                         layout="fill"
                         objectFit="cover"
+                        unoptimized
                     />
                 </div>
                 <div className="font-bold">{blog.profiles.name}</div>
