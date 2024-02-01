@@ -18,6 +18,7 @@ const Navigation = () => {
                             alt="Reboot"
                             width={200}
                             height={200}
+                            unoptimized
                         />
                     </div>
                 </Link>
@@ -25,16 +26,6 @@ const Navigation = () => {
                 <div className="mr-6">
                     {user.id ? (
                         <div className="flex space-x-4 items-center">
-                            {/* <p>{user.email}</p>
-                            <div className="relative rounded-full w-11 h-11 overflow-hidden">
-                                <Image
-                                    src={user.avatar_url ? user.avatar_url : '/default.png'}
-                                    alt="avatar"
-                                    layout="fill"
-                                    objectFit="cover"
-                                />
-                            </div>
-                            <p>{user.name}aaaa</p> */}
                             <Link href="/auth/profile" className='p-3 bg-black text-white rounded-md hover:opacity-80 duration-500'>マイページ</Link>
                         </div>
                     ) : (

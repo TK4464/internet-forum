@@ -227,6 +227,7 @@ const BlogComment = ({ blog, login }) => {
                                         alt="avatar"
                                         layout="fill"
                                         objectFit="cover"
+                                        unoptimized
                                     />
                                 </div>
                                 <div>{data.profiles.name}</div>

@@ -102,6 +102,7 @@ const BlogDetail = ({ blog }) => {
                         alt="avatar"
                         layout="fill"
                         objectFit="cover"
+                        unoptimized
                     />
                 </div>
                 </div>
@@ -120,6 +121,7 @@ const BlogDetail = ({ blog }) => {
                         alt="image"
                         width={1024}
                         height={576}
+                        unoptimized
                     />
                 </div>
                 <div className="bg-white p-4 border-b border-gray-200 border-solid drop-shadow-xl rounded-b leading-relaxed break-words whitespace-pre-wrap">{blog.content}</div>

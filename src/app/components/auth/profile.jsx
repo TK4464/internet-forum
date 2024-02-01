@@ -183,6 +183,7 @@ const Profile = () => {
                                     alt="avatar"
                                     layout="fill"
                                     objectFit="cover"
+                                    unoptimized
                                 />
                             </div>
                         </div>
@@ -253,6 +254,7 @@ const Profile = () => {
                                         alt="avatar"
                                         layout="fill"
                                         objectFit="cover"
+                                        unoptimized
                                     />
                                 </div>
                                 <div className='mx-3 py-2'>
