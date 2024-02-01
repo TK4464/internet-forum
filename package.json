@@ -1,0 +1,34 @@
+{
+  "name": "internet-forum",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@supabase/auth-helpers-nextjs": "^0.5.4",
+    "@supabase/supabase-js": "^2.4.1",
+    "@types/uuid": "^9.0.0",
+    "date-fns": "^2.29.3",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-paginate": "^8.2.0",
+    "server-only": "^0.0.1",
+    "sharp": "^0.31.3",
+    "supabase": "^1.34.5",
+    "uuid": "^9.0.0",
+    "zustand": "^4.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
