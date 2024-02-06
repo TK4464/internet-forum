@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, } from "react"
 import { useRouter } from "next/navigation"
 import { useSupabase } from "./supabase-provider"
 import useStore from "../../../store"
@@ -10,7 +10,6 @@ const SupabaseListener = ({ serverAccessToken }) => {
     const router = useRouter()
     const { setUser } = useStore()
     const { supabase } = useSupabase()
-    const { user } = useStore()
     // const [profileData, setProfileData] = useState([])
 
     useEffect(() => {

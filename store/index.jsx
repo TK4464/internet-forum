@@ -3,8 +3,7 @@ import { create } from 'zustand';
 
 const useStore = create((set) => ({
     // 初期値
-    // 将来的にavatar_urlとnameを取得したいため設定
-    user: { id: '', email: '', name: '', avatar_url: '' },
+    user: { id: '', email: '', },
     // アップデート
     setUser: (payload) => set({ user: payload }),
 }));
